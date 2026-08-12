@@ -1,0 +1,58 @@
+<svg width="1400" height="560" viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b3fa8"/>
+      <stop offset="55%" stop-color="#5a3491"/>
+      <stop offset="100%" stop-color="#432873"/>
+    </linearGradient>
+    <linearGradient id="hillGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fa34d" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5fc06c" stop-opacity="0.32"/>
+    </linearGradient>
+    <linearGradient id="hillSage" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a6bc0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7550a8" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1400" height="560" fill="url(#base)"/>
+  <rect width="1400" height="560" fill="url(#glow)"/>
+
+  <!-- distant soft hills -->
+  <path d="M0,420 C220,360 380,460 620,400 C860,340 1040,430 1400,370 L1400,560 L0,560 Z" fill="url(#hillSage)"/>
+  <path d="M0,470 C260,430 460,500 720,450 C980,400 1160,480 1400,440 L1400,560 L0,560 Z" fill="url(#hillGold)"/>
+
+  <!-- orbiting atom motif, left -->
+  <g transform="translate(180,150)" opacity="0.5">
+    <ellipse cx="0" cy="0" rx="70" ry="26" fill="none" stroke="#fbf6ee" stroke-width="1.4" transform="rotate(20)"/>
+    <ellipse cx="0" cy="0" rx="70" ry="26" fill="none" stroke="#fbf6ee" stroke-width="1.4" transform="rotate(-35)"/>
+    <ellipse cx="0" cy="0" rx="70" ry="26" fill="none" stroke="#fbf6ee" stroke-width="1.4" transform="rotate(80)"/>
+    <circle cx="0" cy="0" r="6" fill="#f3e9d8"/>
+  </g>
+
+  <!-- small leaf sprigs, right -->
+  <g transform="translate(1170,120)" opacity="0.55" fill="#e7ede4">
+    <path d="M0,60 C10,20 40,0 70,-10 C55,20 45,45 30,60 C20,45 10,50 0,60 Z"/>
+    <path d="M0,60 C-14,26 -40,10 -62,4 C-42,28 -34,48 -18,62 C-10,50 -4,54 0,60 Z"/>
+  </g>
+
+  <!-- scattered pollen / data dots -->
+  <g fill="#fbf6ee">
+    <circle cx="90" cy="330" r="4" opacity="0.5"/>
+    <circle cx="340" cy="90" r="3" opacity="0.4"/>
+    <circle cx="520" cy="220" r="3.5" opacity="0.45"/>
+    <circle cx="760" cy="130" r="3" opacity="0.4"/>
+    <circle cx="980" cy="260" r="4" opacity="0.5"/>
+    <circle cx="1260" cy="300" r="3" opacity="0.4"/>
+    <circle cx="620" cy="60" r="2.5" opacity="0.35"/>
+    <circle cx="1050" cy="90" r="2.5" opacity="0.35"/>
+  </g>
+
+  <!-- fine connecting arcs, subtle -->
+  <path d="M90,330 Q300,260 520,220" fill="none" stroke="#fbf6ee" stroke-width="1" opacity="0.25"/>
+  <path d="M760,130 Q880,180 980,260" fill="none" stroke="#fbf6ee" stroke-width="1" opacity="0.25"/>
+</svg>
