@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDUC 331A — Course Modules</title>
+<style>
+  :root {
+    --cream: #f7f6f2;
+    --cream-dark: #e7e2ee;
+    --purple: #6b3fa8;
+    --purple-dark: #4c2d7d;
+    --green: #3fa34d;
+    --green-dark: #2c7d38;
+    --green-light: #e3f3e1;
+    --ink: #2e2b33;
+    --ink-soft: #5a5563;
+    --amber: #e8a93e;
+    --amber-bg: #fff8e6;
+    --amber-ink: #6b4e15;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .hero {
+    background: linear-gradient(180deg, var(--purple-dark) 0%, #351e5a 100%);
+    color: #fff;
+    padding: 56px 0 44px;
+    text-align: center;
+  }
+
+  .hero .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.85;
+    margin-bottom: 14px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0 0 12px;
+    font-weight: 700;
+  }
+
+  .hero p.tagline {
+    font-size: 16px;
+    max-width: 560px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  .backlink {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #e3d7f5;
+    text-decoration: none;
+  }
+
+  .backlink:hover { text-decoration: underline; }
+
+  .notice {
+    background: var(--amber-bg);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: -20px 0 28px;
+    font-size: 14px;
+    color: var(--amber-ink);
+    position: relative;
+    z-index: 2;
+  }
+
+  section.block {
+    padding: 8px 0 8px;
+  }
+
+  .module-card {
+    display: block;
+    background: #fff;
+    border: 1.5px solid var(--cream-dark);
+    border-left: 5px solid var(--green);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .module-card:hover {
+    border-left-color: var(--purple);
+    transform: translateY(-2px);
+  }
+
+  .module-card .tag {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--purple-dark);
+    margin-bottom: 6px;
+  }
+
+  .module-card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: var(--green-dark);
+  }
+
+  .module-card h3 .arrow {
+    color: var(--purple);
+    margin-left: 4px;
+  }
+
+  .module-card p {
+    margin: 0 0 6px;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+
+  .module-card p.topics {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    opacity: 0.85;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 24px 36px;
+    color: var(--ink-soft);
+    font-size: 13.5px;
+  }
+
+  @media (max-width: 600px) {
+    .hero { padding: 40px 0 34px; }
+    .hero h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="wrap">
+      <div class="eyebrow">EDUC 331A · Fall 2026</div>
+      <h1>Course Module Overview</h1>
+      <p class="tagline">Eight modules, one continuous thread: your teaching practice in Week 1 vs. Week 15. Click any module below for its full page.</p>
+      <a class="backlink" href="index.html">← Back to course home</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="notice">
+      <strong>Schedule is tentative.</strong> Weeks and dates below may shift slightly — check the weekly schedule page for the current version.
+    </div>
+
+    <section class="block">
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-1-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 1 · Weeks 1–2</div>
+        <h3>Where We're Starting: Beliefs About Learning &amp; Teaching <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Surface beliefs about learning, teaching, and science before any framework — establish the baseline the whole semester reflects back on.</p>
+        <p class="topics"><strong>Key topics:</strong> Naive theories of learning &amp; teaching · peer teaching without a framework · perspective-taking</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-2-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 2 · Weeks 3–4</div>
+        <h3>Doing Science, Planning Science <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Experience real inquiry firsthand, then learn the standards and tools for planning it intentionally.</p>
+        <p class="topics"><strong>Key topics:</strong> Levels of inquiry · Nature of Science · NGSS three-dimensional structure · 5E lesson-design model</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-3-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 3 · Weeks 5–6</div>
+        <h3>Asking Good Questions &amp; Listening to Student Thinking <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Learn to surface what students already think and build on it, instead of just checking for right answers.</p>
+        <p class="topics"><strong>Key topics:</strong> Eliciting student thinking · using data to adjust instruction · productive talk moves</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-4-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 4 · Weeks 7–8</div>
+        <h3>Making Thinking Visible &amp; Getting Field-Ready <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Use models to see thinking change, and get concretely ready for residency.</p>
+        <p class="topics"><strong>Key topics:</strong> Field-readiness logistics · using models formatively · equity check-in on curriculum</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-5-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 5 · Weeks 9–10</div>
+        <h3>Out in the Classroom: Residency <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Enact ambitious-teaching practices in a live classroom; use collective sense-making to move activity into learning.</p>
+        <p class="topics"><strong>Key topics:</strong> Supporting ongoing changes in thinking · analyzing real teaching · interdisciplinary connections</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-6-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 6 · Week 11</div>
+        <h3>Backing It Up: Evidence, Reasoning &amp; Reflecting on Practice <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Debrief residency evidence and build claim-evidence-reasoning explanations.</p>
+        <p class="topics"><strong>Key topics:</strong> Argumentation &amp; evidence-based reasoning · connecting field evidence to theory</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-7-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 7 · Weeks 12–13</div>
+        <h3>Teaching for Every Student: 3D + Equity Lesson Plan Capstone <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Build one full NGSS-aligned lesson, informed by residency and equity tools, and teach it to peers.</p>
+        <p class="topics"><strong>Key topics:</strong> Planning from a performance expectation &amp; DCI · designing for practice &amp; crosscutting concepts · peer review · capstone peer teaching</p>
+      </a>
+
+      <a class="module-card" href="https://dsuonline.instructure.com/courses/4056/pages/lm-8-overview" target="_blank" rel="noopener">
+        <div class="tag">Module 8 · Weeks 14–15</div>
+        <h3>Growing as a Professional: Revisiting Where We Started <span class="arrow">→</span></h3>
+        <p><strong>Big idea:</strong> Use colleagues to keep improving, and see how far your own teaching and thinking have come.</p>
+        <p class="topics"><strong>Key topics:</strong> Comparing revised practice to baseline · lesson study · course synthesis</p>
+      </a>
+
+    </section>
+
+    <footer>
+      EDUC 331A · Methods for Teaching Science · Fall 2026
+    </footer>
+  </div>
+
+</body>
+</html>
